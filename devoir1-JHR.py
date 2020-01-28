@@ -1,0 +1,19 @@
+### BONJOUR SANDRINE, ICI JEAN-HUGUES ROY
+### TOUS MES COMMENTAIRES SERONT EN MAJUSCULES ET PRÉCÉDÉS DE 3 # (HASHTAGS)
+
+#coding : utf-8
+
+urlList = []
+
+for number in range(20000,30151):
+    
+    urlList.append("https://montrealcampus.ca?p=" + str(number))
+
+print("Voici la liste des URLs: ")
+print(urlList)
+print("Nombre Total de URLs:")
+print(len(urlList))
+
+### EXCELLENT! CODE SIMPLE ET EFFICACE!
+### TU IMPRIMES MÊME DU TEXTE QUI NOUS PARLE!
+### IL NE MANQUERAIT QUE QUELQUES COMMENTAIRES POUR QUE TES COÉQUIPIÈRES ET COÉQUIPIERS COMPRENNENT CE QUE TON CODE FAIT (BON, ICI, C'EST SIMPLE, MAIS CE N'EST PAS TOUJOURS LE CAS ET COMMENTER LE CODE EST UNE BONNE HABITUDE À PRENDRE)
